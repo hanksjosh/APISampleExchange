@@ -1,0 +1,1 @@
+This is a sample application used to showcase some basic funcitonality of the JustWare API.  It operates under the scenario of being given an XML file with Case and Name data from a different system.  This sample parses the XML, and inserts the data into JustWare through the API.
