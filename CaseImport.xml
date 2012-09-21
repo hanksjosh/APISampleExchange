@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Case>
+  <Defendant>
+    <Name>
+      <ID>999</ID>
+      <Last>Duck</Last>
+      <First>Donald</First>
+      <Middle></Middle>
+      <DOB>1934-06-09</DOB>
+      <Height>3'4"</Height>
+      <Weight>64</Weight>
+      <SSN>123-45-6789</SSN>
+    </Name>
+    <Address>
+      <ID>22</ID>
+      <Address>123 N. Main St</Address>
+      <City>Anaheim</City>
+      <State>CA</State>
+      <Zip>12345</Zip>
+    </Address>
+    <Phone>
+      <ID>111</ID>
+      <Number>(123)456-7890</Number>
+    </Phone>
+  </Defendant>
+  <PoliceOfficer>
+    <Name>
+      <ID>18</ID>
+      <Last>Fife</Last>
+      <First>Barney</First>
+      <Middle></Middle>
+      <DOB></DOB>
+      <Height></Height>
+      <Weight></Weight>
+      <SSN></SSN>
+    </Name>
+  </PoliceOfficer>
+  <Arrest>
+    <ArrestDt>2010-01-02</ArrestDt>
+  </Arrest>
+  <Charge>
+    <ChargeNumber>1</ChargeNumber>
+    <Code>1A0000</Code>
+    <Occurred>2010-01-02 10:15:00 AM</Occurred>
+    <OfficerNotes>Donald stole some candy.</OfficerNotes>
+  </Charge>
+</Case>
