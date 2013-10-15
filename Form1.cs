@@ -204,7 +204,7 @@ namespace APISampleExchange
             var chargeValues = GetChildValues(chargeXml);
             Charge charge = new Charge();
             charge.Operation = OperationType.Insert;
-            string query = String.Format("ChargeID = \"{0}\"", chargeValues["Code"]);
+            string query = String.Format("Code = \"{0}\"", chargeValues["Code"]);
             Statute statute = api.FindStatutes(query, null).FirstOrDefault();
             if (statute != null)
             {
